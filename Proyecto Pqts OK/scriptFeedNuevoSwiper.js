@@ -23,7 +23,7 @@ $.getJSON("https://www.transatlantica.travel/assets/archivos/storage/paquetes_di
 		var tarjeta=[titulo,diaSalida,mesSalida,imgCard,postContent,titCard,titPrice,descripcion];
 		tarjetas.push(tarjeta.join(""));
 		i++;
-		return (i<pqtsParaMostrar);
+		//return (i<pqtsParaMostrar);
 			});
 		$("#contenedor").append(tarjetas);
 		slider();
